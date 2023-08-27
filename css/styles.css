@@ -124,3 +124,95 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.clearfix{
+    overflow: hidden;
+    
+}
+
+/* aboutus */
+.aboutusT{
+    font-size: 28px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin-bottom:20px ;
+}
+.aboutusP{
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+.image1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.image2{
+    position: relative;
+    left: 1000px;
+    top: -403px;
+}
+.aboutusT1{
+    font-size: 28px;
+    position: relative;
+    left: 10px;
+    top: -350px;
+    margin-bottom: 20px;
+}
+.aboutusT1P{
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: -350px;
+    margin-bottom: 20px;
+}
+/* Contact */
+.contactInfo{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+.textbox{
+    width: 300px;
+    height: 100px;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 75%;
+    width: 75%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin-left: 50px;
+}
+/* footer */
+footer {
+    background-color: #4c3c32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    }
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+.footer-nav a {
+    text-decoration: none;
+    color: #4c3c32;
+    font-weight: bold;
+    transition: opacity 0.15s;
+    padding: 12px;
+    background-color: #f8f2e0;
+    border-radius: 5px;
+    margin-right: 15px;
+}
