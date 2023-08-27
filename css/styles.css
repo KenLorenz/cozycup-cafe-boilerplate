@@ -191,42 +191,10 @@ h2 p{
 /* ---popular-items--- */
 
 /* ---discover--- */
-.discover-in{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    background-color: #4c3c32;
-    color: white;
-    border-radius: 5px;
-}
+
 .discover-out{
     display: flex;
     justify-content: center;
-}
-.discover-text{
-    font-weight: bold;
-    margin: 2px;
-    font-size: 30px;
-}
-
-.discover-button {
-    padding: 10px;
-    color: #4c3c32;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: opacity 0.15s;
-    background-color: #f8f2e0;
-}
-
-
-
-.discover-button:hover {
-    opacity: 0.8;
-}
-.discover-button:active{
-    opacity: 0.5;
 }
 
 /* ---discover--- */
@@ -372,4 +340,71 @@ footer {
 
 .menu-page-list p{
     padding: 10px;
+}
+
+.clearfix{
+    overflow: hidden;
+    
+}
+
+/* aboutus */
+.aboutusT{
+    font-size: 28px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin-bottom:20px ;
+}
+.aboutusP{
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+.image1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.image2{
+    position: relative;
+    left: 1000px;
+    top: -403px;
+}
+.aboutusT1{
+    font-size: 28px;
+    position: relative;
+    left: 10px;
+    top: -350px;
+    margin-bottom: 20px;
+}
+.aboutusT1P{
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: -350px;
+    margin-bottom: 20px;
+}
+/* Contact */
+.contactInfo{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+.textbox{
+    width: 300px;
+    height: 100px;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 75%;
+    width: 75%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin-left: 50px;
 }
